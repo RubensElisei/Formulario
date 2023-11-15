@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Confirmação</title>
+</head>
+<body>
+    <!--Divisão para organizar a parte visual inicial-->
+    <div class="background">
+        <header>
+            <div class="cabeçario-link">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="form.html">Formulário</a>
+                </li>
+                <li>
+                    <a href="confirmation.html">Confirmação</a>
+                </li>
+            </div>
+        </header>
+        <div class="confirmation-container">
+            <div class="confirmation">
+                <h3>Dados Recebidos com Sucesso!</h3>
+                <p>Nome: <span id="firstName"></span></p>
+                <p>Sobrenome: <span id="lastName"></span></p>
+                <p>E-mail: <span id="email"></span></p>
+                <p>Idade: <span id="idade"></span></p>
+
+                <button id="confirmButton">Confirmar</button>
+
+                <script>
+                    function getQueryStringParameter(name) {
+                        var urlParams = new URLSearchParams(window.location.search);
+                        return urlParams.get(name);
+                    }
+
+                    var firstName = getQueryStringParameter("firstName") || 'Não fornecido';
+                    var lastName = getQueryStringParameter("lastName") || 'Não fornecido';
+                    var email = getQueryStringParameter("email") || 'Não fornecido';
+                    var idade = getQueryStringParameter("idade") || 'Não fornecido';
+
+                    document.getElementById("firstName").textContent = firstName;
+                    document.getElementById("lastName").textContent = lastName;
+                    document.getElementById("email").textContent = email;
+                    document.getElementById("idade").textContent = idade;
+                    document.getElementById("confirmButton").addEventListener("click", function() {
+                        window.location.href = "index.html";
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

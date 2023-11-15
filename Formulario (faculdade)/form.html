@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="background">
+        <header>
+            <div class="cabeçario-link">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="form.html">Formulário</a>
+                </li>
+                <li>
+                    <a href="confirmation.html">Confirmação</a>
+                </li>
+            </div>
+        </header>
+
+        <div class="box">
+            <form id="myForm">
+                <fieldset>
+                    <legend><b>Fórmulário</b></legend>
+                    <br>
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="LabelInput">Nome</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" name="sobrenome" id="sobrenome" class="inputUser" required>
+                        <label for="sobrenome" class="LabelInput">Sobrenome</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                        <label for="email" class="LabelInput">Email</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="number" name="idade" id="idade" class="inputUser" required>
+                        <label for="idade" class="LabelInput">Idade</label>
+
+                        <button type="submit" class="form-button">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        
+        document.getElementById("myForm").addEventListener("submit", function(event) {
+          event.preventDefault();
+          window.location.href = "confirmation.html";
+        });
+      </script>
+      <script src="script.js"></script>
+
+</body>
+
+
+
+
+</html>
