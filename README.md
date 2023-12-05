@@ -1,5 +1,5 @@
 <h1>Formulário</h1>
-Elaborado em HTML e CSS, este formulário inovador proporciona uma experiência intuitiva, facilitando a captura e análise eficiente de dados pessoais. Além disso, integra um formulário suplementar para potenciais interessados, promovendo maior interatividade e engagement no processo.
+Elaborado em HTML, CSS e JavaScript, este formulário inovador proporciona uma experiência intuitiva, facilitando a captura e análise eficiente de dados pessoais. Além disso, integra um formulário suplementar para potenciais interessados, promovendo maior interatividade e engagement no processo.
 
 ## 🛠 linguagens Utilizadas
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
