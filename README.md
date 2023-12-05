@@ -1,5 +1,6 @@
 <h1>Formulário</h1>
-Elaborado em HTML, CSS e JavaScript, este formulário inovador proporciona uma experiência intuitiva, facilitando a captura e análise eficiente de dados pessoais. Além disso, integra um formulário suplementar para potenciais interessados, promovendo maior interatividade e engagement no processo.
+
+Elaborado em HTML, CSS e JavaScript, este projeto acadêmico destaca-se pela criação de um formulário dinâmico. Após o preenchimento, os dados são automaticamente apresentados de maneira organizada e visualmente atraente em uma página de confirmação, evidenciando a sofisticação e eficácia do sistema implementado.
 
 ## 🛠 linguagens Utilizadas
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
