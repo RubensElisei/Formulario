@@ -1,6 +1,5 @@
 <h1>Formulário</h1>
-Um site em HTML com um formulário que armazena e confirma seus dados.
-
+Desenvolvido em HTML e CSS, este formulário intuitivo simplifica a coleta e análise de dados pessoais. Inclui um formulário adicional para possíveis interessados, promovendo interatividade.
 
 ## 🛠 linguagens Utilizadas
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
